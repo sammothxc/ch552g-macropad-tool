@@ -1,0 +1,22 @@
+# Mac-Map
+#  ____
+# | () |  ==> Volume Controls and Play/Pause
+# |[][]|  ==> Previous Song and Next Song
+# |[][]|  ==> Copy and Paste
+# |[][]|  ==> Switch Windows and Enter Key
+#
+
+orientation: counterclockwise
+rows: 2
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      - ["prev", "next"]
+      - ["cmd-c", "cmd-v"]
+      - ["cmd-tab", "enter"]
+    knobs:
+      - ccw: 'volumedown'
+        press: 'play'
+        cw: 'volumeup'

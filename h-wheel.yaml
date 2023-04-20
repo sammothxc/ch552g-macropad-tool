@@ -1,0 +1,24 @@
+orientation: counterclockwise
+
+rows: 2
+columns: 3
+knobs: 1
+
+layers:
+  - buttons:
+      # Array of buttons. In horizontal orienations it's `rows` rows
+      # `columns` buttons each. In vertical: `columns` rows
+      # `rows` buttons each.
+      # Each entry is either a sequence of 'accords' or mouse event.
+      # Accord is a combination of key with optional modifiers,
+      # like 'b', 'ctrl-alt-a' or 'win-rctrl-backspace'. It can also
+      # be just modifiers without key: 'ctrl-alt'.
+      # You may combine several accords into sequence using comma: 'ctrl-v,ctrl-c'.
+      - ["a", "ctrl-a"]
+      - ["e", "f"]
+      # Arbitrary scan code may be given like this: "<101>", code is decimal.
+      - ["<100>", "j"]
+    knobs:
+      - ccw: 'shift-wheelup'
+        press: 'shift-click'
+        cw: 'shift-wheeldown'

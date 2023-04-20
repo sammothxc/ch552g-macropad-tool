@@ -1,0 +1,13 @@
+orientation: counterclockwise
+rows: 2
+columns: 3
+knobs: 1
+layers:
+  - buttons:
+      - ["prev", "next"]
+      - ["ctrl-c", "ctrl-shift-v"]
+      - ["alt-tab", "enter"]
+    knobs:
+      - ccw: 'volumedown'
+        press: 'play'
+        cw: 'volumeup'

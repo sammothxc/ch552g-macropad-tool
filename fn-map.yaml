@@ -1,0 +1,13 @@
+orientation: counterclockwise
+rows: 2
+columns: 3
+knobs: 1
+layers:
+  - buttons:
+      - ["f15", "f16"]
+      - ["f17", "f18"]
+      - ["f19", "f20"]
+    knobs:
+      - ccw: 'f21'
+        press: 'f22'
+        cw: 'f23'
