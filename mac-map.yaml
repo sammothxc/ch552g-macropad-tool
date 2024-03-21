@@ -15,7 +15,7 @@ layers:
   - buttons:
       - ["prev", "next"]
       - ["cmd-c", "cmd-v"]
-      - ["cmd-tab", "enter"]
+      - ["cmd-tab", "<178>"]
     knobs:
       - ccw: 'volumedown'
         press: 'play'
