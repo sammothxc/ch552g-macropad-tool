@@ -5,21 +5,20 @@ Precompiled linux tool for remapping CH552G-based macro-pads. Most of the code b
 ## Validate the config file
 
 ```shell
-./ch57x-keyboard-tool validate < your-config.yaml
+./ch552g-keyboard-tool validate < your-config.yaml
 ```
 
 ## Upload the config to the keyboard
 
 ```shell
-./ch57x-keyboard-tool upload < your-config.yaml
+./ch552g-keyboard-tool upload < your-config.yaml
 ```
 
 Use 'sudo' if you get 'Access denied (insufficient permissions)':
 
 ```shell
-sudo ./ch57x-keyboard-tool upload < your-config.yaml
+sudo ./ch552g-keyboard-tool upload < your-config.yaml
 ```
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
