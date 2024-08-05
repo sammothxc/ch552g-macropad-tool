@@ -2,13 +2,17 @@
 ## Description
 Precompiled linux tool for remapping CH552G-based macro-pads. Most of the code was ported from https://github.com/kriomant/ch57x-keyboard-tool. Check there for usage and further documentation.
 
-## Validate the config file
+## Installation
+Clone this repo and use the precompiled binary `ch552g-macropad-tool`
+
+## Usage
+### Validate the config file
 
 ```shell
 ./ch552g-keyboard-tool validate < your-config.yaml
 ```
 
-## Upload the config to the keyboard
+### Upload the config to the keyboard
 
 ```shell
 ./ch552g-keyboard-tool upload < your-config.yaml
